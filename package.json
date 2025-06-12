@@ -34,6 +34,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "preinstall": "node -e \"if (!process.env.npm_execpath || !process.env.npm_execpath.includes('yarn')) { console.error('Please use Yarn to install dependencies.'); process.exit(1); }\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
