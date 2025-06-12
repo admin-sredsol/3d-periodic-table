@@ -1,5 +1,8 @@
 {
   "name": "3d-periodic-table",
+  "engines": {
+    "node": "16.x"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
