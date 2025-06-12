@@ -1,8 +1,7 @@
 {
   "name": "3d-periodic-table",
   "engines": {
-    "node": "16.x",
-    "yarn": "1.22.22"
+    "node": "16.x"
   },
   "version": "0.1.0",
   "private": true,
@@ -34,7 +33,6 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "preinstall": "node -e \"if (!process.env.npm_execpath || !process.env.npm_execpath.includes('yarn')) { console.error('Please use Yarn to install dependencies.'); process.exit(1); }\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -58,5 +56,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
